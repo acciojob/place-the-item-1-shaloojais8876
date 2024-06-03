@@ -1,10 +1,13 @@
 
 /* Your CSS Code here. */
 .holder{
-	display: flex;
-	justify-content: space-around;
+	flex-wrap : wrap;
+	display: flex;                                  
+	justify-content: space-between;
+
 }
 .item3 {
+
 	background-color: green;
 	width: 100px;
 	height: 100px;
